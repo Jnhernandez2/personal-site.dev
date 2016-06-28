@@ -1,0 +1,18 @@
+#resume-img {
+	height: 225px;
+	width: 400px;
+	position: relative;
+	margin-left: 20%;
+}
+
+#github-logo {
+	height: 50px;
+	width: 50px;
+	position: relative;
+}
+
+#linkedin-logo {
+	height: 50px;
+	width: 50px;
+	position: relative;
+};
