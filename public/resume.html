@@ -40,22 +40,22 @@
 			          		<h2><u>Education</u></h2>
 			          	</div>
 			          	<div>
-			          		<h3 class="hover">Codeup</h3>
-			          		<div>
+			          		<h3>Codeup</h3>
+			          		<div hidden>
 				          		<p><small>May 2016 - Present</small></p>
 				          		<p>I'm currently attedning Codeup, a 16 week coding bootcamp designed to push students through a vigorous, fast paced curriculum to become Full LAMP+J Stack Developers.</p>
 				          	</div>
 			          	</div>
 			          	<div>
-			          		<h3 class="hover">University of Texas at San Antonio</h3>
-			          		<div>
+			          		<h3>University of Texas at San Antonio</h3>
+			          		<div hidden>
 			          			<p><small>2012-2014</small></p>
 			          			<p>B.S. Political Science</p>
 			          		</div>
 			          	</div>
 			          	<div>
-			          		<h3 class="hover">University of Texas Pan American</h3>
-			          		<div>
+			          		<h3>University of Texas Pan American</h3>
+			          		<div hidden>
 			          			<p><small>2007-2009</small></p>
 			          		</div>
 			          	</div>
@@ -63,24 +63,24 @@
 			          		<h2><u>Work History</u></h2>
 			          	</div>
 			          	<div>
-			          		<h3 class="hover">White Elephant Coffee Company</h3>
-			          		<div>
+			          		<h3>White Elephant Coffee Company</h3>
+			          		<div hidden>
 				          		<p><small>Wholesale Accounts Manager / Barista</small></p>
 				          		<p><small>Aug 2015 - May 2016</small></p>
 				          		<p>I was responsible for aquiring and managing wholesale accounts for our roasting facility, processing and delivering orders and payments. I also acted as a barista on a regular basis.</p>
 				          	</div>
 			          	</div>
 			          	<div>
-			          		<h3 class="hover">Americorps VISTA</h3>
-			          		<div>
+			          		<h3>Americorps VISTA</h3>
+			          		<div hidden>
 				          		<p><small>Volunteer</small></p>
 				          		<p><small>Apr 2015 - Aug 2015</small></p>
 				          		<p>My responsibilities included policy and grant writing, creating a sustainable non-profit structure and culture, and maintaining infrastructure through consistent and accurate communication.</p>
 				          	</div>
 			          	</div>
 			          	<div>
-			          		<h3 class="hover">Mildfire Coffee Roasters</h3>
-			          		<div>
+			          		<h3>Mildfire Coffee Roasters</h3>
+			          		<div hidden>
 				          		<p><small>Barista</small></p>
 				          		<p><small>Jul 2014 - Apr 2015</small></p>
 				          		<p>While maintaining a positive work culture I assisted customers with orders, handled cash and deposits, did stock, inventory, and bagged on-site roasted coffee.</p>
@@ -111,10 +111,10 @@
 					$(this).next().slideToggle();
 				});
 
-				$(".hover").on("mouseenter", function() {
-					$(this).addClass("active");
-					}).on("mouseleave", function() {
-						$(this).removeClass("active");
+				$("h3").hover(function() {
+					$(this).css("color", "blue");
+					}, function() {
+						$(this).css("color", "white");
 					});
 						
 
